@@ -40,7 +40,7 @@ public class TestCalculator {
     @Test
     @DisplayName("testing subtraction")
     public void testSub() {
-        assertNotEquals(2, calculator.subtraction(5, 3));
+        assertNotEquals(3, calculator.subtraction(5, 3));
 
 
     }
